@@ -25,8 +25,6 @@
     },
     "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
     "rules": {
-        "indent": ["off", 2],
-        "react/jsx-indent": ["off", 2],
         "prettier/prettier": "error",
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
@@ -38,7 +36,6 @@
         "@typescript-eslint/camelcase": "off",
         "no-unused-expressions": "off",
         "import/no-duplicates": "off",
-        "react/jsx-indent-props": "off",
         "@typescript-eslint/explicit-function-return-type": [
             "error",
             {
